@@ -58,6 +58,7 @@ jobs:
   build-loong64:
     name: Check loong64 build
     runs-on: ubuntu-latest
+    continue-on-error: true # because loong64 is frequently broken by the Node.js ecosystem :-(
     steps:
       - name: Check out the source code
         uses: actions/checkout@v7
