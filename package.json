@@ -17,7 +17,7 @@
   "dependencies": {
     "esbuild": "^0.28.2",
     "vite": "^8.2.2",
-    "vitepress": "2.0.0-alpha.19"
+    "vitepress": "2.0.0-alpha.20"
   },
   "devDependencies": {
     "@commander-js/extra-typings": "^14.0.0",
