@@ -12,6 +12,7 @@
     "prepare": "husky",
     "prettier": "prettier -w .",
     "preview": "./scripts/pnpm-exec-wrapper.sh vitepress preview",
+    "serve": "./scripts/pnpm-exec-wrapper.sh vitepress serve",
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
