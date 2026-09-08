@@ -1,10 +1,10 @@
 basic:
-  name: 2K0300-i
+  name: 2K0301
   series: 2K0300
   market: 4
 
 ext_info:
-  pic: "/images/chips/cpu/2K0300.webp"
+  pic: "/images/chips/cpu/2K0301.webp"
   manual: ""
 
 cpu:
@@ -16,8 +16,8 @@ cpu:
   l1_data_cache: "32 KiB"
   l2_cache: "512 KiB"
   l3_cache: "N/A"
-  voltage: "1.0 V"
-  tpc: "1 W"
+  voltage: "1.1 V"
+  tpc: "1.5 W"
   tdp: "3 W"
 
 gpu:
@@ -47,11 +47,11 @@ exp:
   other: "eMMC, SDIO, CAN, LIO, RTC, AD"
 
 package:
-  socket: "FCBGA286"
+  socket: "FCBGA264"
   temperature: "-40 - 105℃"
   t_case: "95°C"
   t_junction: "105℃"
-  size: "12 mm × 12 mm"
+  size: "13.6 mm × 12 mm"
 
 power:
   clock_gating: false

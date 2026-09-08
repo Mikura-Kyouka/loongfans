@@ -41,7 +41,7 @@
       <span>{{ t("copyright") }} &copy; 2024-{{ copyrightYear }}</span>
       <span>{{ t("communityName") }}</span>
       <a href="https://beian.miit.gov.cn" target="_blank">
-        鄂ICP备2022017735号-12
+        鄂ICP备2026029618号-2
       </a>
     </div>
   </div>
@@ -152,7 +152,7 @@ function handleLanguageChange(language: SupportedLanguage) {
 }
 
 /*响应式处理-开始*/
-@media (max-width: var(--content-max-width)) {
+@media (max-width: /* var(--content-max-width) */ 1024px) {
   .child_footer_info {
     width: 100%;
     max-width: 100%;
